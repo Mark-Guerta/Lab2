@@ -1,4 +1,4 @@
-package seifeldinyoussef.ucalgary.ca;
+package seifeldinyoussef.ucalgary.ca.copy;
 
 public class Employee {
 
