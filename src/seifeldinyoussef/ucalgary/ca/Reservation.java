@@ -25,9 +25,10 @@ public class Reservation extends Schedule {
 	
 		
 	
-	public Reservation(int amtDue, String dateDue) {
-		paymentDue = amtDue;
-		paymentDate = dateDue;
+	public Reservation(int amtDue, String dateDue, String startDate, String endDate, String clientName, String sID) {
+		super(startDate, endDate, clientName);
+		this.paymentDue = amtDue;
+		this.paymentDate = dateDue;
 		
 	}
 }

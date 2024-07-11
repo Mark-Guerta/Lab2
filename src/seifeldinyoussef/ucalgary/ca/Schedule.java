@@ -6,6 +6,7 @@ public class Schedule {
 	private String endDate;
 	private String clientName;
 	private String sID;
+
 	public String getStartDate() {
 		return startDate;
 	}
@@ -35,4 +36,5 @@ public class Schedule {
 		endDate = end;
 		clientName = name;
 	}
+	
 }

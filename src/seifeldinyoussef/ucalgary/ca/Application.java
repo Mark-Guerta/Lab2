@@ -2,5 +2,5 @@ package seifeldinyoussef.ucalgary.ca;
 
 public class Application {
 
-	private 
+	private clients 
 }

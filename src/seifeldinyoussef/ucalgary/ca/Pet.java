@@ -6,7 +6,7 @@ public class Pet {
 	private String petID;
 	private String birthDate;
 	private String gender;
-	private CareProfile CareProfile;
+	private CareProfile careProfile;
 	
 	public String getName() {
 		return name;
@@ -32,9 +32,18 @@ public class Pet {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
+	public CareProfile getCareProfile() {
+		return careProfile;
+	}
+	public void setCareProfile(CareProfile careProfile) {
+		this.careProfile = careProfile;
+	}
 	public Pet( String name, String petID, String birthDate, String gender) {
 	
-		
+		this.name = name;
+		this.petID = petID;
+		this.birthDate = birthDate;
+		this.gender = gender;
 	}
 
 }

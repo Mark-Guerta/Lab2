@@ -14,9 +14,11 @@ public class Booking extends Schedule {
 	
   
 	
-	public Booking(int amt) {
-		paymentAmount = amt;
+	public Booking(int paymentAmount, String startDate, String endDate, String clientName, String sID) {
+		super(startDate, endDate, clientName);
+		this.paymentAmount = paymentAmount;
 		
 	}
+	
 	
 }
