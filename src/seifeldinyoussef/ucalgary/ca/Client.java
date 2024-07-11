@@ -24,7 +24,9 @@ public class Client {
 		this.address = address;
 	}
 	public Client(String name, String PNum, String address) {
-		PNum = phoneNumber;
+		this.name = name;
+		this.phoneNumber = PNum;
+		this.address = address;
 		
 	}
 }

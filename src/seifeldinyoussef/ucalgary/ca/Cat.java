@@ -39,9 +39,9 @@ public class Cat extends Pet{
 
 	public Cat( String breed, String c, Boolean claw, String name, String petID, String birthDate, String gender) {
 		super(name, petID, birthDate, gender);
-		breed = breed;
-		c = colour;
-		claw = declawed;
+		this.breed = breed;
+		this.colour = c;
+		this.declawed = claw;
 		
 	}
 }

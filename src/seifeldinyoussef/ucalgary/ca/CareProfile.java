@@ -25,9 +25,9 @@ public class CareProfile {
 	}
 	
 	CareProfile(String foodInstr, String medList, String medInstr){
-		foodInstr = feedingInstructions;
-		medList = medicationList;
-		medInstr = medicationInstructions;
+		this.feedingInstructions = foodInstr;
+		this.medicationList = medList;
+		this.medicationInstructions = medInstr;
 		
 	}
 }

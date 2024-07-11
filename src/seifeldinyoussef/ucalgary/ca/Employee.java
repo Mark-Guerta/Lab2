@@ -18,6 +18,7 @@ public class Employee {
 	}
 	
 	public Employee(String name, String EID) {
-		EID = employeeID;
+		this.employeeID = EID;
+		this.name = name;
 	}
 }
