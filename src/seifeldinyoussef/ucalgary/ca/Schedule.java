@@ -31,10 +31,11 @@ public class Schedule {
 	public void setsID(String sID) {
 		this.sID = sID;
 	}
-	public Schedule( String start, String end, String name) {
-		startDate = start;
-		endDate = end;
-		clientName = name;
+	public Schedule( int paymentDue, String start, String end, String name, String name2, String sID2) {
+		start = this.startDate;
+		end = this.endDate;
+		name = this.clientName;
+		
 	}
 	
 }

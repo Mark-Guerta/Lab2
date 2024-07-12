@@ -53,7 +53,7 @@ public class Reservation extends Schedule {
 
 
 	public Reservation(int amtDue, String dateDue, String startDate, String endDate, String clientName, String sID) {
-		super(startDate, endDate, clientName);
+		super(amtDue, startDate, endDate, clientName, sID, sID);
 		this.paymentDue = amtDue;
 		this.paymentDate = dateDue;
 		
