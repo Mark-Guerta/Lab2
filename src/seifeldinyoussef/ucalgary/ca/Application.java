@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Application {
 
-	private static Client[] clients;
-	private static Employee[] employees;
-	private static Pet[] pets;
-	private static Booking[] bookings;
-	private static Reservation[] reservations;
-	private static CareProfile[] careProfiles;
+	public static Client[] clients;
+	public static Employee[] employees;
+	public static Pet[] pets;
+	public static Booking[] bookings;
+	public static Reservation[] reservations;
+	public static CareProfile[] careProfiles;
 	
 	
 	
