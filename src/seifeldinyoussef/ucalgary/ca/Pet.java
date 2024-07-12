@@ -1,5 +1,11 @@
 package seifeldinyoussef.ucalgary.ca;
-
+/*
+ * Pet.java
+ * Lab2_ExD
+ * Submission Date: July 11, 2024
+ * @author Saif Youssef
+ * @author Mark Guerta
+ */
 public class Pet {
 	
 	private String name;

@@ -1,5 +1,11 @@
 package seifeldinyoussef.ucalgary.ca;
-
+/*
+ * Booking.java
+ * Lab2_ExD
+ * Submission Date: July 11, 2024
+ * @author Saif Youssef
+ * @author Mark Guerta
+ */
 public class Booking extends Schedule {
 
 	private int paymentAmount;

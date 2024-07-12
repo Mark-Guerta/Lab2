@@ -1,5 +1,11 @@
 package seifeldinyoussef.ucalgary.ca;
-
+/*
+ * CareGuideHardcopy.java
+ * Lab2_ExD
+ * Submission Date: July 11, 2024
+ * @author Saif Youssef
+ * @author Mark Guerta
+ */
 public class CareGuideHardcopy extends CareProfile{
 	
 	public CareGuideHardcopy(String feedingInstructions, String medicationList, String medicationInstructions) {

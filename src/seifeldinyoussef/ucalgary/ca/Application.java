@@ -1,5 +1,11 @@
 package seifeldinyoussef.ucalgary.ca;
-
+/*
+ * Application.java
+ * Lab2_ExD
+ * Submission Date: July 11, 2024
+ * @author Saif Youssef
+ * @author Mark Guerta
+ */
 import java.util.Scanner;
 
 public class Application {
